@@ -12,7 +12,6 @@ Mājaslapa paredzēta lietotājiem, kas vēlas apspriest kopīgas intereses, dal
 1. uzstādīt publisko lietotājvārdu - OK
 2. mainīt paroli kad ir iegājis profilā - OK
 3. atjaunināt paroli ar linku kuru nosūta uz e-pastu - OK
-4. Varbūt - uzstādīt lietotāja bildi - *
 
 ### Publiskas grupas:
 
@@ -29,7 +28,10 @@ Mājaslapa paredzēta lietotājiem, kas vēlas apspriest kopīgas intereses, dal
 
 ### Taisīt post:
 
-1. saturs - pagaidām virsraksts un teksta saturs, bet vēlāk pētīšu vairāk opcijas - OK
+1. saturs - pagaidām virsraksts un teksta saturs, bet vēlāk pētīšu vairāk opcijas - OK  
+  1.1 - Teksta post - OK  
+  1.2 - Youtube linkA post - OK  
+  1.3 - Foto attēla post - OK  
 2. postiem citi reģistrēti lietotāji var komentēt - OK
 3. Vērtēt ar patīk/nepatīk - OK
 4. Spēja sakārtot post pēc kritērijiem (jaunākie un populārākie) - OK
@@ -55,7 +57,6 @@ Mājaslapa paredzēta lietotājiem, kas vēlas apspriest kopīgas intereses, dal
 1. var taisīt grupas un postus - OK
 2. var rediģēt savus postus - OK
 3. var taisīt jaunu grupu - OK
-4. Var čatot ar citiem lietotājiem privāti (nezinu vai tiks pievienots bet atstāju kā ideju) - *
 
 # Viesis:
 
