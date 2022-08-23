@@ -1,97 +1,50 @@
+# sociālo diskusiju portāla datu uzskaites automatizēta sistēma
+## https://breddit.azurewebsites.net/
+
 ## Apraksts:
-Mājaslapa paredzēta lietotājiem, kas vēlas apspriest kopīgas intereses, dalīties ar domām un līdzīgām interesēm utml. ar citiem cilvēkiem.
+Mūsdienās cilvēki izmanto daudz un dažādus sociālos tīklus. Šajā kvalifikācijas darbā ir paredzēts lietotājiem piedāvāt alternatīvu vai papildu sociālo tīklu, kuram pievienoties. Šis portāls sniedz dažādiem cilvēkiem iespēju veidot jaunas grupas par sev interesējošiem tematiem, piemēram lietotāji to var izveidot par kādu politisku tematu apspriešanu, dalīšanos ar kaķu bildēm, jaunas valodas apguvi vai jeb ko citu. Grupas var pārvaldīt ar grupas administratoriem, dalīties ar domām attēlu teksta rakstu un “Youtube” saišu formātiem. Grupas vienmēr ir arī iespēja pārvaldīt vietnes administratoram, sliktu grupu izveidošanas gadījumā. Rakstus ir iespējams vērtēt ar patīk un nepatīk, lai palielinātu to popularitāti un dotu lietotājiem iespēju kārtot rakstus pēc tāda kritērija. Kā arī tiek dota iespēja grupas meklēt pēc to nosaukuma un, ja atrod kādu grupu, kuras temats interesē, tad ir iespēja tai pievienoties un kļūt par tās biedru.  
+Reģistrētiem lietotājiem, kas pievienojas grupām tiek parādīts šo grupu saraksts, kas ļauj uz tām viegli pārvietoties no galvenās lapas, kā arī tiek parādīts personalizēts rakstu saraksts galvenajā lapā tikai no grupām, kurās lietotājs ir pievienojies. Lietotājs savā profilā arī var apskatīt visus sevis veidotos rakstus.
 
-## Plānotās funkcionalitātes:
 
-### Reģistrēties un taisīt lietotāja profilu:
+## Galvenās funkcionalitātes:
+1.	grupu izveide, rediģēšana un dzēšana;
+2.	rakstu izveide, rediģēšana un dzēšana;
+3.	rakstu vērtēšana ar patīk/nepatīk, lai dotu iespēju kārtot pēc popularitātes;
+4.	komentāru pievienošana un dzēšana;
+5.	filtrēta datu izvade pēc dažādiem kritērijiem;
+6.	vietnes pārvaldības iespējas;
+7.	vietnes apskatīšana viesiem jeb nereģistrētiem lietotājiem.
 
-1. uzstādīt publisko lietotājvārdu - OK
-2. mainīt paroli kad ir iegājis profilā - OK
-3. atjaunināt paroli ar linku kuru nosūta uz e-pastu - OK
-
-### Publiskas grupas:
-
-1. grupas nosaukums un apraksts - OK
-2. grupai var pievienoties/apskatīt jebkurš cilvēks (tās ir publiskas) - OK
-3. katrā grupā ir moderātori/admini ar paaugstinātām privilēģijām (skatīt zemāk) - OK
-4. parasti lietotāji kuri var taisīt postus iekš grupas - OK
-5. Iespēja vērtēt citus postus - OK
-7. komentēt zem postiem - OK
-8. Meklēt grupas pēc nosaukuma - OK
-9. Rediģēt grupas (aprakstu) - OK
-10. Parādīt grupas kurām tu esi pievienojies, uzspiežot uz tās tu to atvērtu - OK
-11. Spēja sakārtot grupas pēc kritērijiem (jaunākās un populārākās) - OK
-
-### Taisīt post:
-
-1. saturs - pagaidām virsraksts un teksta saturs, bet vēlāk pētīšu vairāk opcijas - OK  
-  1.1 - Teksta post - OK  
-  1.2 - Youtube linkA post - OK  
-  1.3 - Foto attēla post - OK  
-2. postiem citi reģistrēti lietotāji var komentēt - OK
-3. Vērtēt ar patīk/nepatīk - OK
-4. Spēja sakārtot post pēc kritērijiem (jaunākie un populārākie) - OK
-5. Spēja atlasīt post pēc kritērijiem (šodien, pēdējā mēnesī, gadā izveidotie) - OK
-
-## Globāls mājaslapas Administrators: - +/- OK
-
-1. var izdzēst postus un grupas - OK
-2. var banot lietotājus (varbūt)?
-3. var rediģēt grupas - OK
-4. var mainīt, pievienot, noņemt grupas moderatorus - OK
-5. var pievienot un noņemt citus administratorus - OK
-
-## grupas moderators
-
-1. var banot lietotājus tajā grupā (varbūt) 
-2. var izdzēst postus tajā grupā - OK
-3. var izdzēst komentārus tajā grupā - OK
-4. var piešķirt administratora tiesības citiem lietotājiem grupā kā arī tās atņemt - OK
-
-## Lietotājs:
-
-1. var taisīt grupas un postus - OK
-2. var rediģēt savus postus - OK
-3. var taisīt jaunu grupu - OK
-
-# Viesis:
-
-1. Parasts lietotājs kurš var apskatīt grupas, postus utt. - OK
-
-## Pašlaik plānotās izmantotās tehnoloģijas:
-HTML  
-CSS  
-JS  
+## Izmantotās tehnoloģijas:
+HTML, CSS, JS, Bootstrap  
 C#  
-ASP.NET  
-MSSQL  
+.NET 6 MVC  
+Visual Studio  
+Gmail SMTP + MailKit  
+Azure:  
+-Web app  
+-SQL Server  
+-Key Vault  
 
-## Izmantotie avoti un kad tie izmantoti:
-[C# Dokumentācija](https://docs.microsoft.com/en-us/dotnet/csharp/) šeit tiek ietverti ļot daudz linki (1 links uz visu) par oficiālo c# dokumentāciju.  
-[Entity Framework datu saglabāšana 1](https://www.youtube.com/watch?v=ZX7_12fwQLU) 09.12.2021  
-[Entity Framework datu saglabāšana 2](https://www.youtube.com/watch?v=qkJ9keBmQWo) 09.12.2021  
-[Identity Serviss lietotāja profila datiem](https://www.youtube.com/watch?v=egITMrwMOPU) 14.12.2021  
-[.NET CORE 6 MVC (2022)](https://www.youtube.com/watch?v=hZ1DASYd9rk)  
-[Mājaslapas vizuālā tematika](https://bootswatch.com/solar/)  
-[Bootstrap 5 dokumentācija](https://getbootstrap.com/)  
-[Favicon](https://icons8.com/icons/set/favicon-cat)  
-[Vairāki video no šī playlist](https://www.youtube.com/playlist?list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU)  
-[ViewBag piemērs](https://www.tutorialsteacher.com/mvc/viewbag-in-asp.net-mvc)  
-[Pamācība uz kuras pamata izveidoju e-pastu sūtīšanu](https://www.youtube.com/watch?v=qSeO9886nRM)  
-[Gmail e-pastu sūtīšanas info](https://www.siteground.com/kb/gmail-smtp-server/)  
+## Izstrādes vides uzstādīšana
+1. Jelupielādēt Visual Studio 2022 Community un jāpievieno WEB development pakotni  
+2. Klonē projektu git-client://clone?repo=https%3A%2F%2Fgithub.com%2FMKBernsons%2FBreddit  
+3. Nuget package manager konsolē jāuzraksta update-database  
+4. Ar F5 var palaist projektu  
 
-# Uzstādīšanas instrukcijas(Izmaiņu dēļ tās vairs nav atbilstošas projektam, atjaunināšu vēlāk):
-  
-1. [Lejuplādēt Visual Studio Community 2022 (iespējams var atvērt arī ar 2019 gada versiju vai vecāku, bet neesmu to testējis.](https://visualstudio.microsoft.com/downloads/)
-2. Iegūt pieeju projektam kur tas tiek saglabāts (pajautāt caur mykoob), to lejuplādēt.
-3. Projektu jāatver kā mākat, bet to arī var izdarīt atverot visual studio un klonējot repository ar linku.
-4. Iekš visual studio jāatver solution explorer un jāatrod Bred.sln fails un to jāuzspiež 2x reizes - ![download (1)](https://user-images.githubusercontent.com/87810247/154998330-b7cbe69e-ae73-4ace-a354-6aedccde7472.png)  
-
-5. Solution explorer jāatrod appsettings.json fails kurā jāievada jūsu administratora vēlamās login detaļas - ![image](https://user-images.githubusercontent.com/87810247/154995852-5ba755e5-5583-4ee7-908c-708af124c46c.png)  
-6. atvērt nuget package manager console - ![image](https://user-images.githubusercontent.com/87810247/154998059-6634e7c4-6ec5-4fa3-b2b2-b8cb0cb5fd86.png)  
-
-7. Atvērtajā konsolē jāuzraksta - "update-database" un jāspiež enter un nedaudz jāpagaida - ![image](https://user-images.githubusercontent.com/87810247/154997989-5869077f-85d0-42cf-bf45-2c0b64d12221.png)  
-
-8. Jāstartē aplikācija - ja izvēlesieties IIS EXPRESS tad jāseko līdzi 9. punktam. ![image](https://user-images.githubusercontent.com/87810247/154996149-8bda529c-b81c-4411-8de5-888ffd72e0f8.png)  
-9. Prasīs uzticēties sertifikātiem un jāspiež 2x reizes - piekrist/jā
-10. Atveroties mājaslapai pie linka jāpieraksta klāt -> "/admin/setup" kas izveidos jūsu specificēto admina profilu.
+## Avoti:  
+1.	[C# dokumentācija](https://docs.microsoft.com/en-us/dotnet/csharp/) Apskatīts 24/11/2021  
+2.	[Entity Framework pamati 1](https://www.youtube.com/watch?v=ZX7_12fwQLU) Apmeklēts 09/12/2021  
+3.	[Entity framework pamati 2](https://www.youtube.com/watch?v=qkJ9keBmQWo) Apmeklēts 10/12/2021  
+4.	[Identity pamati](https://www.youtube.com/watch?v=egITMrwMOPU) Apskatīts 20/12/2022  
+5.	[ASP.NET Core MVC pamati](https://www.youtube.com/watch?v=hZ1DASYd9rk) Apskatīts 20/12/2022  
+6.	[Bootstrap dokumentācija](https://getbootstrap.com/), [Bootswatch dokumentācija](https://bootswatch.com/solar/) Apskatīts 13/11/2021  
+7.	[Identity dokumentācija](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-6.0&tabs=visual-studio)  Apskatīts 25/12/2021  
+8.	[Lietotāju video pamācība 1](https://www.youtube.com/watch?v=egITMrwMOPU&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=65) Apskatīts 11/11/2021  
+9.	[Failu saglabāšana sistēma](https://www.youtube.com/watch?v=aoxEJii70_I&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=53) Apskatīts 05/03/2022  
+10.	[Lietotāju video pamācība 2](https://www.youtube.com/watch?v=NV734cJdZts&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=77) Apskatīts 26/02/2022  
+11.	[Lietotāju video pamācība 3](https://www.youtube.com/watch?v=TzhqymQm5kw&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=81) Apskatīts 26/02/2022  
+12.	[Lietotāju video pamācība 4](https://www.youtube.com/watch?v=7ikyZk5fGzk&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=80) Apskatīts 26/02/2022  
+13.	[Lietotāju video pamācība 5](https://www.youtube.com/watch?v=KGIT8P29jf4&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=79) Apskatīts 26/02/2022  
+14.	[Lietotāju video pamācība 6](https://www.youtube.com/watch?v=TuJd2Ez9i3I&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=78) Apskatīts 26/02/2022  
+15.	[Paroļu atjaunošanas pamācība](https://www.youtube.com/watch?v=0W0yAz7fu04&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=115) Apskatīts 11/03/2022  
